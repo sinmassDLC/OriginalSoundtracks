@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li img{
+    border-radius: 7px;
+
+    margin: 20px;
+    transition: linear 300ms;
+}
+
+nav ul li img:hover{
+    border: 2px solid red;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+nav ul li a{
+    transition: linear 200ms;
+    color: white;
+    margin: 3rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+nav ul p{
+    color: white;
+}
+
+.container img{
+    border-radius: 7px;
+    border: 2px solid red;
+    margin: 20px;
+    height: 400px;
+    transition: linear 300ms;
+}
+
+.container img:hover{
+    box-shadow: 10px 20px 10px white;
+}
+
+.soundtracks h1{
+    color: white;
+    margin: 20px;
+    transition: linear 200ms;
+}
+
+.soundtracks h1:hover{
+    color: red;
+}
+
+.soundtracks img{
+    border-radius: 7px;
+    margin: 20px;
+    height: 290px;
+    transition: linear 200ms;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.soundtracks img:hover{
+    box-shadow: 10px 10px 10px white;
+}
+
+.soundtracks_peliculas h1{
+    margin: 20px;
+    color: white;
+    transition: linear 200ms;
+}
+
+.soundtracks_peliculas h1:hover{
+    color: red;
+}
+
+.soundtracks_peliculas img{
+    border-radius: 7px;
+    height: 290px;
+    border: 2px solid red;
+    margin: 20px;
+    cursor: pointer;
+    transition: linear 200ms;
+}
+
+.soundtracks_peliculas img:hover{
+    box-shadow: 10px 10px 10px white;
+}
